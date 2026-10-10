@@ -1,0 +1,101 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Contact saadwi for business enquiries.">
+  <title>Contact saadwi</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      color: #263449;
+      background: #f4f6f9;
+      line-height: 1.6;
+    }
+    header {
+      background: #172b4d;
+      color: white;
+      padding: 28px 20px;
+    }
+    .container {
+      max-width: 850px;
+      margin: auto;
+    }
+    header h1 { margin: 0; font-size: 32px; }
+    header p { margin: 4px 0 0; color: #dce5f2; }
+    main { padding: 55px 20px; }
+    .card {
+      background: white;
+      padding: 36px;
+      border-radius: 12px;
+      box-shadow: 0 5px 24px rgba(0,0,0,.06);
+    }
+    h2 { margin-top: 0; font-size: 28px; }
+    a {
+      color: #185abd;
+      font-weight: bold;
+      text-decoration: none;
+    }
+    a:hover { text-decoration: underline; }
+    .contact {
+      margin-top: 25px;
+      padding: 20px;
+      background: #f4f6f9;
+      border-radius: 8px;
+    }
+    footer {
+      text-align: center;
+      padding: 25px 20px;
+      color: #64748b;
+      font-size: 14px;
+    }
+    @media (max-width: 600px) {
+      main { padding: 28px 15px; }
+      .card { padding: 24px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>SaDwi</h1>
+      <p>Simple solutions. Reliable service.</p>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <h2>Contact Us</h2>
+      <p>
+        Thank you for your interest in saadwi.
+        We welcome your questions and business enquiries.
+        Please contact us by email.
+      </p>
+
+      <div class="contact">
+        <strong>Email us</strong>
+        <p>
+          <a href="mailto:contact@saadwi.de">
+            contact@saadwi.de
+          </a>
+        </p>
+        <a href="mailto:contact@saadwi.de">
+          Send us an email →
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    &copy; <span id="year"></span> saadwi. All rights reserved.
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent =
+      new Date().getFullYear();
+  </script>
+</body>
+</html>
